@@ -1,29 +1,6 @@
-<<<<<<< HEAD
-/* .counter {
-  font-size: 16px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  color: var(--accent);
-  background: var(--accent-bg);
-  border: 2px solid transparent;
-  transition: border-color 0.3s;
-  margin-bottom: 24px;
-
-  &:hover {
-    border-color: var(--accent-border);
-  }
-  &:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-  }
-=========
 *{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
->>>>>>>>> Temporary merge branch 2
 }
-
-.hero {
-  position: relative;
 
 
 /* HEADER */
@@ -43,7 +20,7 @@
   height: 90px;
   object-fit: contain;
   margin: -10px 0;
-  
+
 }
 
 .header-nav {
@@ -79,26 +56,6 @@
   align-items: center;
   gap: 15px;
   width: 100%;
-<<<<<<<<< Temporary merge branch 1
-
-  &::before,
-  &::after {
-    content: '';
-    position: absolute;
-    top: -4.5px;
-    border: 5px solid transparent;
-  }
-
-  &::before {
-    left: 0;
-    border-left-color: var(--border);
-  }
-  &::after {
-    right: 0;
-    border-right-color: var(--border);
-  }
-} */
-=========
   padding: 10px;
 }
 
@@ -116,6 +73,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 10%;
+  color-scheme: light dark;
 }
 
 .carousel-layout .carousel-indicators {
@@ -155,5 +113,3 @@
   font-size: 22px;
   padding-top: 20px;
 }
-
->>>>>>>>> Temporary merge branch 2
