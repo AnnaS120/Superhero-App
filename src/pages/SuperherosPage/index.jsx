@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom'
 export default function SuperherosPage({superheros =[]}) {
   const [gender, setGender] = useState("")
   const filterHeroes = FilteredHeroes(superheros, gender)
-    console.log("Superheroes received:", superheros.length)
-  console.log("Filtered superheroes:", filterHeroes.length)
-  console.log("First superhero:", superheros[0])
+    // console.log("Superheroes received:", superheros.length)
+    // console.log("Filtered superheroes:", filterHeroes.length)
+    // console.log("First superhero:", superheros[0])
 
   return (
     <>

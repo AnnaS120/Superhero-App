@@ -3,7 +3,8 @@ import SuperherosPage from '../../pages/SuperherosPage';
 
 export default function ShowGallery() {
   const [ superheros, setSuperheros ] = useState([]);
-  
+      console.log("ShowGallery is rendering")
+
     //to show all the superheros and their image
   useEffect(() => {
   
