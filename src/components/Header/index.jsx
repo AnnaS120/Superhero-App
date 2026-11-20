@@ -15,9 +15,9 @@ export default function Header() {
             Home
           </NavLink>
 
-          <NavLink to="/shows">Superheroes</NavLink>
+          <NavLink to="/superheros">Superheroes</NavLink>
 
-          <NavLink to="/search">Game</NavLink>
+          <NavLink to="/game">Game</NavLink>
         </nav>
       </header>
 

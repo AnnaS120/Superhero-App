@@ -47,7 +47,7 @@
   font-weight: 700;
 }
 
-
+/* ___________________________ */
 /* Homepage */
 
 .carousel-layout {
@@ -103,7 +103,7 @@
 .welcome h1 {
   text-align: center;
   padding: 15px;
-  font-size: 60px;
+  font-size: 55px;
   color: #010517;
   font-weight:bold;
 }
@@ -140,4 +140,18 @@
 
 .link-section a:hover {
   background-color: #8be9f7fc;
+}
+
+
+
+/* ___________________________ */
+/* GamePage */
+
+.game-h1 {
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.game-p {
+  font-size: 22px;
 }

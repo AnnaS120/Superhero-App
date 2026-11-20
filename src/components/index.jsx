@@ -1,8 +1,9 @@
-export {default as Header } from './Header'
-export { default as SelectGender } from './SelectGender'
-export {default as SelectRace } from './SelectRace'
-export { default as SelectPowerStats } from './SelectPowerStats'
-export { default as SearchForm } from './SearchForm'
-export {default as  GalleryImage } from './GalleryImage'
-export {default as  HerosGallery } from './HerosGallery'
-
+export { default as Header } from "./Header";
+export { default as SelectGender } from "./SelectGender";
+export { default as SelectRace } from "./SelectRace";
+export { default as SelectPowerStats } from "./SelectPowerStats";
+export { default as SearchForm } from "./SearchForm";
+export { default as GalleryImage } from "./GalleryImage";
+export { default as HerosGallery } from "./HerosGallery";
+export { default as HeroSelector } from "./HeroSelectorGame.jsx";
+export { default as BattleResult } from "./BattleResult.jsx";
