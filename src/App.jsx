@@ -11,7 +11,7 @@ function App() {
         <Route path="/" element={<Header />}>
           <Route index element={<Pages.HomePage />}/>
           <Route path="/superheros" element={<Pages.SuperherosPage />}/>
-          <Route path="/superheros/:id" element={<Pages.SuperheroShowPage />}/>
+          <Route path="/superheros/:id" element={<Pages.SuperherosShowPage />}/>
           <Route path="/game" element={<Pages.GamePage />}/>
           <Route path="*" element={<Pages.NotFoundPage />}/>
         </Route>

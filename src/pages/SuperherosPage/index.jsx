@@ -1,7 +1,17 @@
 import React from 'react'
+import { SelectGender, SelectRace, SelectPowerStats, SearchForm} from '../../components'
 
 export default function SuperherosPage() {
   return (
-    <div>SuperherosPage</div>
+    <>
+      <SelectGender />      
+      
+      <SelectRace />
+      
+      <SelectPowerStats />
+
+      <SearchForm />
+
+    </>
   )
 }
