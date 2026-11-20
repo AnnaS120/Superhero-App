@@ -5,4 +5,6 @@ export { default as SelectPowerStats } from './SelectPowerStats'
 export { default as SearchForm } from './SearchForm'
 export {default as  GalleryImage } from './GalleryImage'
 export {default as  HerosGallery } from './HerosGallery'
+export { default as FilteredHeroes } from './FilteredHeros'
+export { default as FilteredCards } from './FilteredCards'
 

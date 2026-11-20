@@ -1,20 +1,32 @@
-import React, { useEffect } from 'react'
-import { HerosGallery, SelectGender, SelectRace, SelectPowerStats, SearchForm} from '../../components'
+import React, { useState } from 'react'
+import { SelectGender, SelectRace, SelectPowerStats, SearchForm, FilteredHeroes, FilteredCards} from '../../components'
+
 import { Link } from 'react-router-dom'
 
-export default function SuperherosPage() {
-
-  //to show all the superheros and their image
-
+export default function SuperherosPage({superheros}) {
+  const [gender, setGender] = useState("")
+  const filterHeroes = FilteredHeroes(superheros, gender)
 
   return (
     <>
-      <SelectGender />      
-      <SelectRace />
-      <SelectPowerStats />
-      <SearchForm />
+      <div className="container">
+        <div className="row g-3 mb-4">
+          <div className="col-md-3">
+            <SelectGender gender={gender} setGender={setGender} />
+          </div>
+          <div className="col-md-3">
+            <SelectRace />
+          </div>
+          <div className="col-md-3">
+            <SelectPowerStats />
+          </div>
+          <div className="col-md-3">
+            <SearchForm />
+          </div>
+        </div>
+      </div>
+      <FilteredCards filterHeroes={filterHeroes} />
 
-      <HerosGallery />
     </>
   )
 }
