@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import superheroImage1 from "../../assets/superhero-id1.webp";
 import superheroImage2 from "../../assets/superhero-id8.webp";
@@ -141,6 +142,20 @@ export default function HomePage() {
           >
             &gt;
           </button>
+        </div>
+      </div>
+
+      <div className="home-links">
+        <div className="link-section">
+          <h2>Go to our hero discovery page</h2>
+
+          <Link to="/superheros">Discover Heroes</Link>
+        </div>
+
+        <div className="link-section">
+          <h2>Ready to play?</h2>
+
+          <Link to="/game">Play Now</Link>
         </div>
       </div>
     </>
