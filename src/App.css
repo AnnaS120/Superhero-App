@@ -16,11 +16,14 @@
     outline: 2px solid var(--accent);
     outline-offset: 2px;
   }
-=======
+=========
 *{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
->>>>>>> 3e87d508f36c4d2b5b217163597855e02a8c984d
+>>>>>>>>> Temporary merge branch 2
 }
+
+.hero {
+  position: relative;
 
 
 /* HEADER */
@@ -76,7 +79,7 @@
   align-items: center;
   gap: 15px;
   width: 100%;
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
 
   &::before,
   &::after {
@@ -95,7 +98,7 @@
     border-right-color: var(--border);
   }
 } */
-=======
+=========
   padding: 10px;
 }
 
@@ -153,4 +156,4 @@
   padding-top: 20px;
 }
 
->>>>>>> 3e87d508f36c4d2b5b217163597855e02a8c984d
+>>>>>>>>> Temporary merge branch 2
