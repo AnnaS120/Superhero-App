@@ -2,7 +2,7 @@ import React from 'react'
 import GalleryImage from '../GalleryImage'
 
 
-export default function FilteredCards({ filterHeroes }) {
+export default function FilteredCards({ filterHeroes}) {
 
   return (
     <div className="container">
