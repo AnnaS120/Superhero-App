@@ -10,7 +10,7 @@ export default function SearchForm({ handleSearch, lastSearch }) {
 
     function handleSubmit(e) {
         e.preventDefault()
-        handleSubmit(inputValue)
+        handleSearch(inputValue)
         setInputValue('')
     }
 

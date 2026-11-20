@@ -8,18 +8,13 @@ export default function SuperherosPage() {
 
 
   return (
-
     <>
-      <HerosGallery />
-
       <SelectGender />      
-
       <SelectRace />
-      
       <SelectPowerStats />
-
       <SearchForm />
 
+      <HerosGallery />
     </>
   )
 }
