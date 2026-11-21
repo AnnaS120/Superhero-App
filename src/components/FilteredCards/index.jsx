@@ -1,5 +1,6 @@
 import React from 'react'
 import GalleryImage from '../GalleryImage'
+import { Link } from 'react-router-dom'
 
 
 export default function FilteredCards({ filterHeroes}) {
