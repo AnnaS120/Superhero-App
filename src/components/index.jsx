@@ -7,4 +7,5 @@ export {default as  GalleryImage } from './GalleryImage'
 export {default as  HerosGallery } from './HerosGallery'
 export { default as FilteredHeroes } from './FilteredHeros'
 export { default as FilteredCards } from './FilteredCards'
+export { default as SearchFilter } from './SearchFilter'
 

@@ -13,7 +13,6 @@ export default function SelectGender({ gender, setGender }) {
             <option value="">Gender</option>
             <option value="Female">Female</option>
             <option value="Male">Male</option>
-            <option value="Not Known"></option>
         </select>
 
     )
