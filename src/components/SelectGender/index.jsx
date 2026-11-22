@@ -1,23 +1,19 @@
-import {React, useEffect, useState} from 'react'
+import {React} from 'react'
 
-export default function SelectGender() {
+export default function SelectGender({ gender, setGender }) {
 
-  const [gender, setGender] = useState()
+    return (
 
-  function handleSelect (g) {
-    const newGender = g.target.value 
-    setGender(newGender)
-  }
+        <select
+            name="gender"
+            id="gender-select"
+            value={gender}
+            onChange={(e) => setGender(e.target.value)}
+        >
+            <option value="">Gender</option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+        </select>
 
-  return (
-    
-    <select onSubmit={handleSelect}
-      name="gender" 
-      id="gender-select">
-        <option value="">Gender</option>
-        <option value="female">Female</option>
-        <option value="male">Male</option>
-    </select>
-
-  )
+    )
 }

@@ -7,7 +7,6 @@ export default function SearchForm({ handleSearch, lastSearch }) {
         const newInput = e.target.value
         setInputValue(newInput)
     }
-
     function handleSubmit(e) {
         e.preventDefault()
         handleSearch(inputValue)
@@ -23,6 +22,5 @@ export default function SearchForm({ handleSearch, lastSearch }) {
         />
         <input type="submit" value='Search'/>
     </form>
-
   )
 }
